@@ -1,13 +1,13 @@
 # Alarm Clock Warmup
 
-Write a ruby script that will say “Time’s up!” after a given number of seconds or minutes.
+Write a ruby script that will say “Time’s up” after a given number of seconds or minutes.
 
 ## Prep
 
 First, get familiar with the “say” command.  Please use headphones if you have them :)  From the terminal type:
 
-    say "Hello, I can talk!"
-    say -v "Pipe Orga" "Hello, I am talking!"
+    say "Hello, I can talk"
+    say -v "Pipe Orga" "Hello, I am talking"
 
 Next, get familiar with Ruby’s system command, which runs the command you give it as if it were on the command line.
 From IRB type:
@@ -30,7 +30,7 @@ Now you have all the tools you need to write an alarm clock that tells you when 
 
 * In your ruby file, grab the current time and put it in a variable called start_time
 * Create a loop that compares the current time to the start_time
-* If more than 10 seconds have passed, make the computer say “Time’s up!” and exit
+* If more than 10 seconds have passed, make the computer say “Time’s up” and exit
 
 Once you've got that, take it to the next level by:
 
